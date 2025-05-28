@@ -19,4 +19,3 @@ jobs:
     name: Documentation
     uses: faraaz-bot/rocm-docs-core/.github/workflows/linting.yml@develop
      with:
-          config_path: .spellcheck.yaml
