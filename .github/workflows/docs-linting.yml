@@ -1,11 +1,12 @@
-name: Docs Linting
-
-on:
-  push:
-    branches: [develop, main]
-  pull_request:
-    branches: [develop, main]
+name: Spellcheck Action
+on: push
 
 jobs:
-  docs-linting:
-    uses: faraaz-bot/rocm-docs-core/.github/workflows/linting.yml@develop
+  build:
+    name: Spellcheck
+    runs-on: ubuntu-latest
+    steps:
+    # The checkout step
+    - uses: actions/checkout@v3
+    - uses: rojopolis/spellcheck-github-actions@v0
+      name: Spellcheck
