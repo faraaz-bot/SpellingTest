@@ -1,1 +1,1 @@
-Henlo, lotss of errorrrss
+Hello, no errors here buddy. Move along.
