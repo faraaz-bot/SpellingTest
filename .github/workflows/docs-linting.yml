@@ -8,4 +8,4 @@ on:
 
 jobs:
   docs-linting:
-    uses: ROCm/rocm-docs-core/.github/workflows/linting.yml@develops
+    uses: faraaz-bot/rocm-docs-core/.github/workflows/linting.yml@develop
