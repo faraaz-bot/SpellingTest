@@ -8,5 +8,5 @@ jobs:
     steps:
     # The checkout step
     - uses: actions/checkout@v3
-    - uses: rojopolis/spellcheck-github-actions@0.40.0
+    - uses: faraaz-bot/rocm-d/.github/workflows/linting.yml@develop
       name: Spellcheck
