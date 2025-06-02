@@ -1,1 +1,1 @@
-Hello, no errors here buddy. Move along. Hi. More correctness.
+Hello, no errors here buddy. Move along. Hi. 
