@@ -3,17 +3,18 @@ name: Linting
 on:
   push:
     branches: 
-      - develop
-      - release
-      - 'docs/*'
-      - 'roc*'
+    - develop
+    - release
+    - 'docs/*'
+    - 'roc**'
   pull_request:
     branches: 
-      - develop
-      - release
-      - 'docs/*'
-      - 'roc*'
+    - develop
+    - release
+    - 'docs/*'
+    - 'roc**'
 
 jobs:
   call-workflow-passing-data:
-    uses: faraaz-bot/rocm-d/.github/workflows/linting.yml@develop
+    name: Documentation
+    uses: ROCm/rocm-docs-core/.github/workflows/linting.yml@develop
