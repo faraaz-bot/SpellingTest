@@ -2,13 +2,13 @@ name: Linting
 
 on:
   push:
-    branches: 
+    branches:
       - develop
       - release
       - 'docs/*'
       - 'roc*'
   pull_request:
-    branches: 
+    branches:
       - develop
       - release
       - 'docs/*'
@@ -16,5 +16,4 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    name: Documentation
     uses: faraaz-bot/rocm-d/.github/workflows/linting.yml@develop
