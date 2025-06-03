@@ -16,5 +16,4 @@ on:
 
 jobs:
   call-workflow-passing-data:
-    name: Documentation
     uses: faraaz-bot/rocm-d/.github/workflows/linting.yml@develop
